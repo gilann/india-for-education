@@ -1,0 +1,143 @@
+
+
+.login_page{
+	width:360px;
+	padding:10% 0 0;
+	margin: auto;
+}
+label{
+	color: white;
+}
+
+.form{
+	position: relative;
+	z-index: 1;
+	background: rgba(0,0,0,0.4);
+
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+}
+
+.create:hover,.create:active{
+	background: blue;
+}
+
+.form input{
+	font-family: "Roboto",sans-serif;
+	color: white;
+	z-index: 1;
+	outline: 1;
+	background: rgba(0,0,0,0.2);
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+.form button{
+	font-family: "Roboto", sans-serif;
+	background: blue;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: white;
+	font-size: 14;
+	cursor: pointer;
+}
+
+
+ .id{
+	font-family: "Roboto", sans-serif;
+	background: blue;
+	z-index: 2;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	font-size: 14;
+	cursor: pointer;
+}
+
+
+.form .register{
+	display: none;
+}
+
+.select{
+	height: 29px;
+   overflow: hidden;
+   width: 265px;
+}
+
+.addproduct{
+
+	position: relative;
+	z-index: 1;
+	background: white;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+	font-family:  "Roboto", sans-serif;
+	top: 150px;
+}
+
+
+@media(max-width: 768px max-height: 1360px) {
+
+	button .id, form .form{
+		float: none;
+      	width:100%;
+        margin:0;
+        border:none;
+        text-align: center;
+   }
+
+	button .id, form .form, select .select, input .id{
+      	width:100%;
+        margin:0;
+        border:none;
+        text-align: center;
+   }
+
+
+ }
+
+ @media(max-width: 1440px max-height: 2560px){
+
+ 	button .id, form .form{
+		float: none;
+      	width:100%;
+        margin:0;
+        border:none;
+        text-align: center;
+   }
+
+ 	button .id, form .form, select .select, input .id{
+
+      	width:100%;
+        margin:0;
+        border:none;
+        text-align: center;
+ }
+
+ @media(max-width: 1060px max-height: 1680px){
+
+ 	button .id, form .form{
+		float: none;
+      	width:100%;
+        margin:0;
+        border:none;
+        text-align: center;
+   }
+
+ 	button .id, form .form, select .select, input .id{
+
+      	width:100%;
+        margin:0;
+        border:none;
+        text-align: center;
+ }

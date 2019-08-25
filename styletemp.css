@@ -1,0 +1,261 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.header
+{
+	height: 8vh;	
+
+}
+.navbar-style
+{
+	box-shadow: 0 5px 10px #000000;
+	text-transform: uppercase;
+}
+.logo
+{
+height: 48px;
+padding: 2px 20px;
+}
+.icon-bar
+{
+	background: darkorange;
+}
+
+body{
+	font-family: 'sans-serif';
+	font-size: 16px;
+	line-height: 1.3;
+	color: #9D9D9D;
+}
+
+/***  Global CSS  ***/
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+	width: 120%;
+}
+/** Input CSS **/
+.form-control{
+    padding: 8px 10px;
+    border:none;
+    background-color: white;
+    border-radius: 5px;
+    line-height: 1em;
+    margin-bottom:5px;
+}
+.input-secondary{
+	background-color: #343434;
+	color: white;
+}
+.input-info{
+	background-color: #2C2C2C;
+	color: white;
+}
+::placeholder{
+	color:white;
+}
+/** Buttons CSS **/
+.btn{
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	line-height: 1em;
+	cursor: pointer;
+	font-weight: bold;
+}
+.btn-primary{
+	background-color: #3BAFBE;
+	color: white;
+}
+.btn-primary:hover{
+	background-color: transparent;
+	border: 1px solid #3BAFBE;
+	color: #3BAFBE;
+	padding: 9px 14px;
+	font-weight: bold; 
+}
+/**headings css**/
+h1{
+	font-size: 40px;
+	color:#4A4A4A;
+}
+.content-wrapper1 h2{	
+	text-align: center;
+	font-style: italic;
+}
+h3{
+	font-size: 20px;
+	color: black;
+}
+
+
+/*** Body CSS ***/
+
+/** Header CSS **/
+
+.header-wrapper{
+	border-bottom: 1px solid #E8E8E8;
+	color: lightblue;
+}
+.header-wrapper .header-top{
+	padding: 20px 0;
+	line-height: 30px;
+}
+.header-wrapper .header-top .header-icon,
+.header-wrapper .header-top .header-search{
+	display: inline-block;
+}
+.header-wrapper .header-top .header-search{
+	float: right;
+}
+.header-menu-wrapper .brand-logo, .header-menu-wrapper .main-menu{
+	display: inline-block;
+	color: black;
+}
+/**logos css**/
+.header-wrapper .header-top .header-icon i{
+	font-size: 20px;
+	border-radius:50%;
+	padding: 7px;
+	color:white;
+	background-color: black;
+	margin:0px 3px;
+}
+.header-wrapper .header-top .header-icon i:hover{
+    background-color: #F28028;
+}
+/*Navigation*/
+.header-menu-wrapper {
+	margin-bottom: 20px;
+	color:lightblue;
+}
+
+.header-menu-wrapper .main-menu{
+	float: right;
+}
+.header-menu-wrapper .main-menu ul.nav{
+	list-style-type: none;
+	margin-top: 30px;
+}
+.header-menu-wrapper .main-menu ul.nav li{
+	display: inline-block;
+	padding: 5px 10px;
+}
+.header-menu-wrapper .main-menu ul.nav li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: inherit;
+	font-weight: bold;
+}
+.header-menu-wrapper .main-menu ul.nav li a:hover{
+	color: #3BAFBE;
+}
+
+/**content section**/
+/*content 1*/
+
+.content-main-wrapper .container .content-wrapper1{
+	display: inline-block;
+	border-bottom: 1px solid #E8E8E8;
+	padding: 30px 0px;
+}
+.content-main-wrapper .container .content-wrapper1 .content-wrapper-image{
+   width:40%;
+   float: left;
+}
+.content-main-wrapper .container .content-wrapper1 .content-wrapper-text{
+	margin-top: 20px;
+	float: right;
+	width:60%;
+	font-size: 16px;
+}
+.content-main-wrapper .container .content-wrapper1 .content-wrapper-text span{
+	margin: 20px 0px;
+}
+.content-main-wrapper .container .content-wrapper1 .slide{
+	float:right;
+	margin-top:100px;
+	color:#3AB1BD;
+}
+/**content2**/
+.container1{
+	display: inline-block;
+}
+.content-main-wrapper1 .container1 .content-wrapper1 .gallery{
+		float: left;
+		display: inline-block;
+		width: 33.33%;
+		padding: 10px;
+	}
+	.content-main-wrapper1 .container1 .content-wrapper1 .gallery:hover{
+		box-shadow: 0 0 10px #999;
+	}
+.content-main-wrapper1 .container1 .content-wrapper1 .gallery img{
+	width:100%;
+	height:250px;
+}
+.content-main-wrapper1 .container1 .content-wrapper1 .gallery .desc{
+	padding: 15px 0px;
+}
+/**content3 css**/
+
+.content-main-wrapper .container .content-wrapper1 .gallery1{
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+}
+.content-main-wrapper .container .content-wrapper1 .gallery1 img{
+	width:30%;
+	float: left;
+	padding: 3px;
+	border:1px solid #EAEAEA;
+}
+.content-main-wrapper .container .content-wrapper1 .gallery1 .desc{
+	width: 70%;
+	float: left;
+	padding-left: 5px;
+}
+.content-main-wrapper .container .content-wrapper1 .gallery1 .desc span{
+	color: #87CFD3;
+}
+/**footer css**/
+/**footer main css**/
+
+.footer-main-wrapper .footer-links-wrapper{
+	overflow: hidden;
+	background-color: #252525;
+	padding: 25px 0px;
+}
+.footer-main-wrapper .footer-links-wrapper .container .footer-links{
+    width: 25%;
+    float: left;
+}
+.footer-main-wrapper .footer-links-wrapper .container .footer-links ul{
+	list-style-type: none;
+}
+.footer-main-wrapper .footer-links-wrapper .container .footer-links .special{
+	color:#418B90;
+}
+.footer-main-wrapper .footer-links-wrapper .container .footer-links .cast{
+	padding: 3px 0px;
+	border-bottom: 1px solid #2B2B2B;
+}
+.footer-main-wrapper .footer-links-wrapper .container .footer-links .spanner{
+	float: right;
+	padding-right: 20px;
+}
+.footer-main-wrapper .footer-links-wrapper .container .footer-links h2{
+	color: white;
+	font-weight: bold;
+}
+/**footercopy css**/
+
+.footer-main-wrapper .footer-copy{
+	background-color: #1A1A1A;
+	padding: 15px 0px;
+}
+.footer-main-wrapper .footer-copy span{
+	float: right;
+}
